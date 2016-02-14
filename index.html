@@ -1,0 +1,169 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <title>Looking is the new reading is the new remembering</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+
+$(document).ready(function () {
+
+    var gate = false;
+
+    $(window).on("scroll", function () {
+
+        if($(window).scrollTop() + $(window).height() > ($(document).height() - 677) && gate === false) {
+
+            var image = $("#tab");
+            var gifUrl = image.attr("data-funtimesgif");
+            image.attr("src", gifUrl);
+
+            gate = true;
+
+        }
+    });
+});
+
+
+  </script>
+  <style type="text/css">
+
+img {
+    display: block;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1080px;
+    display: block;
+}
+
+#traditional {
+    width: 400px;
+    height: auto;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trains {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#multitool {
+    margin-top: 240px;
+    margin-left: 85px;
+}
+
+#umpire {
+    margin-top: -100px;
+    margin-left: 730px;
+}
+
+#sponge {
+    width: 460px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#moreless {
+    width: 220px;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+#eye {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+#maze {
+    width: 380px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 550px;
+}
+
+#bouncing {
+    width: 500px;
+    height: auto; 
+    margin-top: -380px;
+    margin-left: 150px;
+}
+
+#concentrate {
+    width: 1100px;
+    height: auto;
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brain {
+    width: 580px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+#sieve {
+    width: 380px;
+    height: auto;
+    margin-top: -100px; 
+    margin-left: 700px;
+}
+
+#tab {
+    margin-top: 190px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+}
+
+p   {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 150%;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+a   {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+}
+
+  </style>
+</head>
+<a name="top"></a>
+<body>
+  <div id="container">
+      <img src="images/WilliamLoomis_traditional.jpg" id="traditional"/>
+      <img src="images/reading_on_trains3.gif" id="trains"/>
+      <img src="images/multitool3.gif" id="multitool"/>
+      <img src="images/umpire.jpg" id="umpire"/>
+      <img src="images/read_more_read_less3.gif" id="moreless"/>
+      <img src="images/img_9381.jpg" id="sponge"/>
+      <img src="images/eye0_25.gif" id="eye"/>
+      <img src="images/hedge_pathways_maze.jpg" id="maze"/>
+      <img src="images/jparker-bouncing_ball_animation.gif" id="bouncing"/>
+      <img src="images/Concentrate.gif" id="concentrate"/>
+      <img src="images/brain_pathways_confusion.gif" id="brain"/>
+      <img src="images/sieve.gif" id="sieve"/>
+      <img src="images/tab.jpg" data-funtimesgif="images/tab.gif" id="tab"/>
+      <p><b><em>Looking is the new reading is the new remembering</em> – a visual essay by Louise Evans</b><br>
+Image credits: 1: <em>Woman in yellow shirt reading</em>, William Andrew Loomis 2: In order of appearance:  Steven Pemberton, LE, galleryhip.com, Robert Nickelsberg/Getty Images via nymag.com, LE 3: Leatherman 4: Kessel/Topical Press Agency/Getty Images via Telegraph.co.uk 5: LE 6: avcsl.com 7: LE 8: Jim Parker 9: Bob Krist, Corbis 10: LE 11: LE 12: LE</p>
+  <a href='/'>Return to Top</a>
+  </div>
+</body>
+</html>
